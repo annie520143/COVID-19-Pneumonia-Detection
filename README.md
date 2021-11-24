@@ -1,6 +1,11 @@
 # COVID-19-Pneumonia-Detection
 
 ### Introduction
+Our tsk is to classify chest x-ray image into three class: Normal, Pneumonia, COVID. Our method can devided into four steps.
+1. X-ray image enhancement inverse
+2. X-ray image enhancement
+3. Do lung segmataion
+4. Train pretrained model
 
 ### File Description
 * `lung_segmentation.py`: input original x-ray image and output two type of image, the one is coloring the lung part of the image, another will only reserve the lung part
@@ -20,12 +25,12 @@ see requirements.txt
  ```
  python app.py -a hef
  ```
-4. Do lung segmataion
+3. Do lung segmataion
  change data in file to the location of image folder that you want to preprocess
  ```
  python lung_segmentation.py
  ```
-4. Run pretrained model
+4. Train pretrained model
  You can change any pre-trained model in link below
  All models: https://keras.io/api/applications/?fbclid=IwAR0Cxq_0f_cG01QhSt5CivNj8mCzL65OzmGo7-Rme29EBI0MDkQ2QP5t2CE
  ```
