@@ -12,7 +12,7 @@
 see requirements.txt
 
 ### Implementation
-1. Inverse image to black lung and white bone (change row 361 :valid_data / covid_data / pneumonia_data / normal_data)
+1. Inverse image to black lung and white bone (change row 361 : valid_data / covid_data / pneumonia_data / normal_data)
  ```
  python invert.py
  ```
