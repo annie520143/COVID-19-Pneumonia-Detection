@@ -1,7 +1,7 @@
 # COVID-19-Pneumonia-Detection
 
 ### Introduction
-Our tsk is to classify chest x-ray image into three class: Normal, Pneumonia, COVID. Our method can devided into four steps.
+Our tsk is to classify chest x-ray image into three class: Normal, Pneumonia, COVID. Our method can devided into four steps:
 1. X-ray image enhancement inverse
 2. X-ray image enhancement
 3. Do lung segmataion
@@ -32,6 +32,7 @@ see requirements.txt
  ```
 4. Train pretrained model
  You can change any pre-trained model in link below
+ Our best model: DenseNet201
  All models: https://keras.io/api/applications/?fbclid=IwAR0Cxq_0f_cG01QhSt5CivNj8mCzL65OzmGo7-Rme29EBI0MDkQ2QP5t2CE
  ```
  python transfer_learing.py
