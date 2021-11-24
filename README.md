@@ -26,8 +26,14 @@ see requirements.txt
  python lung_segmentation.py
  ```
 4. Run pretrained model
- You can change any model in link below pre-trained model in this code
+ You can change any pre-trained model in link below
  All models: https://keras.io/api/applications/?fbclid=IwAR0Cxq_0f_cG01QhSt5CivNj8mCzL65OzmGo7-Rme29EBI0MDkQ2QP5t2CE
  ```
  python transfer_learing.py
  ```
+ 
+### Reference
+* https://keras.io/api/applications/
+* https://www.nature.com/articles/s41598-021-95561-y
+* https://github.com/asalmada/x-ray-images-enhancement
+* https://github.com/alimbekovKZ/lungs_segmentation_train
