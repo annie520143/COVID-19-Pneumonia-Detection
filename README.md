@@ -17,12 +17,16 @@ see requirements.txt
  
  ```
 2. X-ray image enhancement
-3. Do lung segmataion
+ ```
+ python app.py -a hef
+ ```
+4. Do lung segmataion
  change data in file to the location of image folder that you want to preprocess
  ```
  python lung_segmentation.py
  ```
 4. Run pretrained model
+ You can change pre-trained model in this code
  ```
- 
+ python transfer_learing.py
  ```
