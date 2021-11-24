@@ -39,20 +39,14 @@ see requirements.txt
 
 ### Result
 | | w/o Segmentation | w/ Segmentation|
+| -------- | -------- | --------  |
 | w/o Enhancement | 0.55 | x |
 | w/ Enhancement | x | 0.6 |
 
 | | w/o Segmentation | w/ Segmentation|
+| -------- | -------- | --------  |
 | w/o Enhancement | 0.48 | x |
 | w/ Enhancement | x | 0.51 |
-
-
-
-
-
-
-
-
 
  
 ### Reference
