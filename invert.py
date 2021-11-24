@@ -5,11 +5,7 @@ import cv2
 import os
 import pandas as pd
 import numpy as np
-'''
-這部分的為圖片前處理，會將 train 的檔案處理完後分成 NORMAL PNEUMONIA COVID 放入對應的資料夾
-然後 valid 處理完則是放入 VALID 的資料夾
-以 VALID 為例 : VALID 為黑白圖 ，VALID1 為黑白圖搭配標示，VALID2 為單獨只有肺部圖片
-'''
+
 valid_data = ["0f30ecaf1e42.png",
 "3acb673adc77.png",
 "4a4c08b4af92.png",
@@ -358,7 +354,7 @@ covid_data = ["01ef587469f2.png",
 valid_data_path = 'COVID/'
 
 savepath = "COVID_invert/"
-for filename in valid_data:
+for filename in valid_data: # covid_data / normal_data / pneumonia_data 
     image = Image.open(valid_data_path + filename)
     image = ImageOps.invert(image)
     image.save(savepath + filename)
