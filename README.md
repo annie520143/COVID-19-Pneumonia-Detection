@@ -8,6 +8,7 @@ Our tsk is to classify chest x-ray image into three class: Normal, Pneumonia, CO
 4. Train pretrained model
 
 ### File Description
+* `invert.py`: change all image into black lung and white bone
 * `lung_segmentation.py`: input original x-ray image and output two type of image, the one is coloring the lung part of the image, another will only reserve the lung part
 * `transfer_learning.py`: all pretrained models in https://keras.io/api/applications/?fbclid=IwAR0Cxq_0f_cG01QhSt5CivNj8mCzL65OzmGo7-Rme29EBI0MDkQ2QP5t2CE
 * `/x-ray-images-enhancement-master/`
